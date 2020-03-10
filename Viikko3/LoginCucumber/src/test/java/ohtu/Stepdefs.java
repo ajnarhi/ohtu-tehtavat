@@ -42,7 +42,27 @@ public class Stepdefs {
     
     @Then("system will respond with {string}")
     public void systemWillRespondWith(String expectedOutput) {
+        System.out.println("ohjelma tulosti seuraavat rivit "+io.getPrints());
+       
         assertTrue(io.getPrints().contains(expectedOutput));
-    }    
+    }   
+    
+    @Given("command new is selected")
+    public void commandNewIsSelected() {
+       inputLines.add("new");
+    }
+    
+    @Given("user {string} with password {string} is created")
+    public void userWithPasswordIsCreated(String string, String string2) {
+        inputLines.add("new");
+        inputLines.add(string);
+        inputLines.add(string2);
+        
+        
+
+    }
+
+    
+    
 
 }
