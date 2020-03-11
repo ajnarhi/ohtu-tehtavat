@@ -2,7 +2,7 @@ Feature: As a registered user can log in with valid username/password-combinatio
 
     Scenario: user can login with correct password
         Given login is selected
-        When correct username "jukka" and password "akkuj" are given
+        When correct username "jukka2" and password "akkuj123" are given
         Then user is logged in
 
     Scenario: user can not login with incorrect password
