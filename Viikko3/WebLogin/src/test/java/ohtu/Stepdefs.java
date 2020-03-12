@@ -30,7 +30,7 @@ public class Stepdefs {
     
     @Then("user is logged in")
     public void userIsLoggedIn() {
-        pageHasContent(""); //TÄMÄ EI TOIMI; MUTTA MIKSI EI?
+        pageHasContent("Ohtu Application main page"); 
     }    
  
     @When("correct username {string} and incorrect password {string} are given")
