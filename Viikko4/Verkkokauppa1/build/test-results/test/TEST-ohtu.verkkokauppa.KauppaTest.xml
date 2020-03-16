@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-16T08:52:58" hostname="lx9-fuxi066" time="0.461">
+<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-16T09:22:32" hostname="lx9-fuxi066" time="0.803">
   <properties/>
-  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.445"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.779"/>
   <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
-  <testcase name="kahdenSamanOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="kahdenSamanOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.002"/>
+  <testcase name="kauppaPyytaaViitenumeronJokaiselleMaksutapahtumalle" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
   <testcase name="kaksiEriOstostaToistaOntoistaEiOlePaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
-  <testcase name="kahdenEriOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.005"/>
+  <testcase name="poistaKoristaPoistaaKerranKorista" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="kahdenEriOstoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaanJaPalautetaanOikeatArvot" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="aloitaAsiointiNollaaEdellisenOstoksenTiedot" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
